@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    
+      
+      font-family: "Montserrat", sans-serif ;
+      color: rgb(42, 35, 103);
+}
+
+  .violet{
+
+    color: rgb(107, 90, 249);;
+  
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .call-back-button_but{
+
+    font-family: "Montserrat", sans-serif;
+    width:177px;
+    height:60px;
+    color:white;
+    background: rgb(107, 90, 249);;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .call-back-small-button_but{
+    font-family: "Montserrat", sans-serif;
+    width:62px;
+    height:38px;
+    color:white;
+    background: rgb(107, 90, 249);;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .burger-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .button1{
+    font-family: "Montserrat", sans-serif;
+    width:177px;
+    height:60px;
+    color:white;
+    background: rgb(107, 90, 249);;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+    }
+    .button2{
+        font-family: "Montserrat", sans-serif;
+        width:275px;
+        height:60px;
+        color:white;
+        background: rgb(107, 90, 249);;
+        border-width: 0px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .button1:hover {
+
+        background-color: rgb(42, 35, 103);
+      }
+      .button2:hover {
+  
+        background-color: rgb(42, 35, 103);
+      }
