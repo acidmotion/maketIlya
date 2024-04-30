@@ -1,0 +1,58 @@
+@media (min-width: 360px) and  (max-width:768px)
+  {
+    .container {
+       
+    }
+    .header-container__burger-menu{
+        display: grid;
+        grid-template-areas: 1fr 1fr 1fr;
+        gap:3px;
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+
+      }
+      .header-container__feedback{
+        display: none;
+    }
+    .header-container__nav-menu  {
+        display: none;
+   }
+   .call-back-button{
+    display: none;
+    
+   }
+   .first-info{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+ .title{
+  order:1;
+ }
+ .bigImage{
+  order:2;
+  margin-left: 100px;
+  
+ }
+ .main-info{
+  order:3;
+ }
+.button1{
+  margin:0 auto; 
+  
+}
+.footer-text_button2{
+  cursor: pointer;
+
+}
+.call-back-small-button_but:hover{
+  background-color: rgb(48, 39, 126);
+  cursor: pointer;
+}
+  }
