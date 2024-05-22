@@ -1,0 +1,23 @@
+@media (min-width: 769px) and  (max-width:1279px)
+{
+.top__text{
+    font-size: 20px;
+
+    }
+
+.footerMenu_arrow {
+        
+    transition: transform 0.3s ease-in-out;
+
+    transform-style: preserve-3d;
+     }
+.footerMenu_arrow:active{
+         
+    transform: rotate(180deg);
+      }
+
+div.swiper{
+  display: none;
+}      
+
+}
