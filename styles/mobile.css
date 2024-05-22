@@ -1,0 +1,24 @@
+@media (min-width: 360px) and  (max-width:768px)
+  {
+   .top__text{
+    font-size: 20px;
+    }
+    .footerMenu_arrow{
+      display: none;
+     }
+    .windows{
+    max-height: 200px;
+    
+    }
+.windows{
+display: none;
+
+}
+.swiper-slide{
+  width: 90% !important;
+}
+
+.footerMenu{
+margin-top: 10px;
+}
+  }
