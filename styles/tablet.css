@@ -1,0 +1,313 @@
+@media (min-width: 769px) and  (max-width:1279px)
+  {
+   
+    .header-container__burger-menu{
+      display: grid;
+        grid-template-areas: 1fr 1fr 1fr;
+        gap:3px;
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .header-container__burger-menu_move{
+      display: none;
+    } 
+
+    .call-back-small-button_but:hover{
+      background-color: rgb(48, 39, 126);
+    }
+    .call-back-small-button_but{
+      cursor: pointer
+    }
+    .header-container__feedback {
+        display: none;
+    }
+    .header-container__nav-menu {
+        display: none;
+   }
+   .call-back-button{
+    display: none;
+
+   }
+   .first-info{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "title title title"
+                         "main logo logo"
+                         "main logo logo";
+}
+.bigImage{
+  display: grid;
+  grid-area: logo; 
+  width: 100%;
+}
+
+.first-info_title {
+  grid-area: title;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer-text_button2{
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.main-info {
+  grid-area: main;
+}
+.title_br{
+
+  display: none;
+}
+
+
+/*maket4*/
+
+
+.top__text{
+  font-size: 20px;
+
+  }
+
+.footerMenu_arrow {
+      
+  transition: transform 0.3s ease-in-out;
+
+  transform-style: preserve-3d;
+   }
+.footerMenu_arrow:active{
+       
+  transform: rotate(180deg);
+    }
+
+div.swiper{
+display: none;
+}      
+
+
+.Down{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.company__millenium_callbackMenu_border{
+  
+  min-height: 486px;
+ 
+}
+
+.company__millenium1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 1015px;
+}
+
+.company__millenium_title{
+  font-size: 24px;
+  font-weight: bolder;
+}
+.company__millenium_text{
+  font-size: 14px;
+  width: auto ;
+}
+
+
+
+
+.company__platonic{
+  position: absolute;
+  left:100px;
+  top:-70px;
+}
+
+.company__hand{
+  position: absolute;
+  left: 0px;
+  top:850px;
+  width: 335px;
+  height: 171px;
+}
+
+
+.company__donut{
+ position: absolute; 
+ left:30px;
+ top:770px;
+ height: 42px;
+ width: 42px;
+}
+
+.company__cube{
+  position: absolute;
+  right:10px;
+  bottom: 130px;
+  width: 119px;
+  height: 119px;
+}
+
+.company__cylinder{
+  position: absolute;
+  right:-40px;
+  top:420px;
+  width: 174px;
+  height: 173px;
+}
+
+
+
+
+.footer__UP_writeUs{
+  font-size: 24px;
+}
+.footer__UP_mail{
+  font-size: 29px;
+}
+
+.bussines__title{
+  font-size: 24px;
+}
+.bussines__text{
+  font-size: 12px;
+}
+
+
+
+
+
+.top__text{
+  font-size: 24px !important;
+}
+
+.list-info__points{
+  font-size: 12px;
+}
+
+
+.up__text{
+  font-size: 18px;
+}
+
+.stage{
+  font-size: 24px;
+}
+
+.stage__cards_image_tablet-mobile{
+  display: block;
+}
+
+
+
+.stage__cards_image_desktop{
+  display: none;
+}
+
+
+
+.sertificate{
+  
+  margin-top: 150px;
+  border-radius: 10px;
+  max-width: auto;
+  height:1150px;
+  display: none;
+  
+}
+
+
+.sertificate__inside{
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  width: auto;
+  height: 1125px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0px;
+  align-items: center;
+
+}
+
+.sertificate__inside_card_sertificate-one{
+  width: 429px;
+  height: 607px;
+}
+.sertificate__inside_card_sertificate-two{
+  width: 429px;
+  height: 607px;
+  display: none;
+}
+.sertificate__inside_card_info{
+  display: none;
+}
+.sertificate__inside_card_sertificate{
+  display: none;
+}
+.sertificate__inside_gold-bitrix{
+width: 185px;
+height: 226px;
+top: 40px;
+left: 270px;
+}
+
+
+
+.sertificate__swiper_inside_width{
+  width: 430px;
+  overflow: hidden;
+
+}
+
+.swiper2 .swiper-pagination {
+  position:  relative !important;
+  margin-top: 60px !important;
+  padding-bottom: 0 !important;
+  
+}
+.swiper2 .swiper-pagination-bullet{
+width: 12px !important; 
+  height: 12px !important;
+  margin-left: 12px !important;
+}
+
+.swiper2 .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background-color: rgb(107, 90, 249);
+  
+  }
+
+  .application-frame{
+    width: 532px;
+  
+
+  
+    }
+    
+    .application-frame-in{
+      width: 532px;
+     
+    }
+    
+    .application__x{
+      
+     
+      left:110%;
+    
+      transform: translate(-50%, -50%);
+    }
+  
+
+
+}
+
+  
