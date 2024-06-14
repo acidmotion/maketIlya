@@ -1,0 +1,497 @@
+@media (min-width: 360px) and  (max-width:768px)
+  {
+   
+    .header-container__burger-menu{
+        display: grid;
+        grid-template-areas: 1fr 1fr 1fr;
+        gap:3px;
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+
+      }
+      .header-container__feedback{
+        display: none;
+    }
+    .header-container__nav-menu  {
+        display: none;
+   }
+   .call-back-button{
+    display: none;
+   }
+
+   .header-container__burger-menu_move{
+    display: none;
+  } 
+
+   .header-container__logo{
+    width: 113px;
+    height: 35px;
+   }
+
+
+   .first-info{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+   }
+
+   .first-info_title{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+   }
+
+  .info{
+    font-size: 12px;
+    max-width: 356px;
+    
+  }
+
+  .footer-text_last-info{
+    font-size: 12px;
+    max-width: 340px;
+
+  }
+
+  .main-info{
+    display: grid;
+    justify-content: center;
+  }
+
+  .top__text{
+    display: none;
+  }
+
+  .up__text{
+    font-size: 16px;
+  }
+
+
+ .title{
+  order:1;
+ }
+ .bigImage{
+  order:2;
+
+  
+
+
+
+ }
+ .main-info{
+  order:3;
+ }
+.button1{
+  margin:0 auto; 
+  
+}
+.footer-text_button2{
+  cursor: pointer;
+
+}
+.call-back-small-button_but:hover{
+  background-color: rgb(48, 39, 126);
+  cursor: pointer;
+}
+
+
+
+/*maket4 */
+
+
+  .top__text{
+   font-size: 20px;
+   }
+   .footerMenu_arrow{
+     display: none;
+    }
+   .cards{
+   max-height: 200px;
+   
+   }
+   .cards.cardsHeight{
+
+    max-height: 1000px;
+    overflow: hidden;
+    
+    }
+
+.cards{
+display: none;
+
+}
+.swiper-slide{
+ width: 90% !important;
+}
+
+.footerMenu{
+margin-top: 10px;
+}
+
+.stage__cards_image_tablet-mobile{
+  display: block;
+}
+
+.stages{
+  gap:0px;
+}
+
+.stage__cards_image_desktop{
+  display: none;
+}
+
+.stage__cards_info{
+padding: 10px 10px 40px 10px;
+gap:20px;
+}
+
+.stages__cards{
+
+padding: 20px 10px 20px 10px;
+gap:20px;
+}
+
+.stages__border{
+  min-height: auto;
+}
+
+.doYouGet{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.up__text{
+  font-size: 10px;
+}
+
+
+.bussines{
+  display: flex;
+  flex-direction: column;
+}
+
+.bussines__title{
+  font-size: 18px;
+}
+
+.bussines__text{
+  font-size: 12px;
+}
+
+.stage{
+  font-size: 18px;
+}
+
+.stage__cards_number{
+  min-height: 37px;
+  min-width: 37px;
+}
+
+.stage__cards_number_1{
+  font-size: 18px;
+}
+
+.stage__cards_number_2{
+  font-size: 18px;
+}
+
+.stage__cards_number_3{
+  font-size: 18px;
+}
+
+.stage__cards_number_4{
+  font-size: 18px;
+}
+
+.stage__cards_number_5{
+  font-size: 18px;
+}
+
+.stage__cards_number_6{
+  font-size: 18px;
+}
+
+
+.stage__cards_title{
+  font-size: 14px;
+}
+
+
+.stage__cards_text{
+  font-size: 12px;
+}
+
+.company__millenium1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 932px;
+  max-width: auto;
+  padding: 30px 0px 0px 0px;
+}
+
+.company__millenium_title{
+  display: none;
+}
+
+.company__millenium_title_mobile{
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.company__millenium_text{
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.footer__UP{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+
+.footertwo{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: auto;
+  grid-template-areas:
+      "button"
+      "icons"
+      "adress"
+      "number";
+}
+
+.tgwats{
+  grid-area: icons;
+  justify-self: center;
+}
+
+.footer__UP_adress{
+  grid-area: adress;
+  justify-self: center;
+}
+
+.footer__UP_number{
+  grid-area: number;
+  justify-self: center;
+}
+
+.footer__UP_writeUs{
+  font-size: 18px;
+}
+
+.footer__UP_mail{
+  font-size: 20px;
+
+}
+
+.footer__UP_call-back-button_but{
+  display: none;
+}
+
+
+.footer__UP_call-back-button_but_two{
+  display: block;
+  grid-area: button;
+  margin-bottom: 20px;
+}
+
+.foooter__DOWN_info{
+  text-align: center;
+}
+
+.company__millenium_callbackMenu_border{
+  height: 486px;
+  width: 311px;
+}
+
+.company__millenium_callbackMenu_number{
+  font-size: 16px;
+}
+.company__millenium_callbackMenu_button{
+  width: 268px;
+}
+
+.company__millenium_callbackMenu{
+  gap:35px;
+}
+
+
+.company__platonic{
+  
+  height: 119px;
+  width: 119px;
+  left:30px;
+  top:-70px;
+}
+
+.company__cylinder{
+  position: absolute;
+  height: 103px;
+  width: 103px;
+  right: -35px;
+    top: -45px;
+}
+
+.company__donut{
+  height: 42px;
+  width: 41px;
+  left: 5%;
+  top: 68%;
+}
+
+.company__hand{
+  height:113px;
+  width: 221px;
+  top: 800px;
+  left: 0px;
+}
+
+.company__cube{
+  height: 91px;
+  width: 91px;
+  right: 5%;
+  bottom:150px;
+}
+
+
+.sertificate{
+  
+
+  display: none;
+  
+}
+
+.sertificate__swiper_inside_width{
+  width: 280px;
+  overflow: hidden;
+
+}
+
+.sertificate__swiper_inside_card_image{
+  height: 395px;
+  width: 280px;
+  
+}
+
+.sertificate__swiper{
+  height: 700px;
+}
+.sertificate__swiper_inside{
+  height:697px; 
+}
+
+.sertificate__swiper_inside_gold-bitrix{
+  height: 120px;
+  width: 99px;
+  padding-top: 20px;
+}
+
+.sertificate__swiper_inside_card{
+  margin-top: 150px;
+  gap:10px;
+}
+
+.swiper2 .swiper-pagination {
+  position:  relative !important;
+  margin-top: 40px !important;
+  padding-bottom: 0 !important;
+  
+}
+.swiper2 .swiper-pagination-bullet{
+width: 10px !important; 
+  height: 10px !important;
+  margin-left: 12px !important;
+}
+
+.swiper2 .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background-color: rgb(107, 90, 249);
+  
+  }
+
+  .sertificate__swiper_inside_card{
+    height: 450px;
+  }
+
+
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .application__button{
+    
+    width:310px;
+   
+    }
+
+ .application-frame{
+    width: 340px;
+    height: 514px;
+
+  
+   }
+    
+  .application-frame-in{
+    width: 340px;
+    height: 514px;
+  }
+
+  .application__title {
+    font-size: 18px;
+  }
+  .application__button{
+   width: 310px;
+    }  
+.application{
+  width: 310px;
+}
+
+.application__x{
+      
+     
+  left:100%;
+
+  transform: translate(-50%, -50%);
+}
+
+.company__millenium_callbackMenu_footerInfo_text{
+  font-size: 10px;
+}
+.move-menu{
+  
+ 
+  top:60px;
+}
+
+.overlayMove {
+  
+  top: 60px;
+
+}
+}
+
+  
